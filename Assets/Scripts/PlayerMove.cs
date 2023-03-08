@@ -37,8 +37,9 @@ public class PlayerMove : MonoBehaviour
     public float maxSlopeAngle;
     private RaycastHit slopeHit;
     private bool exitingSlope;
-    
 
+    private AudioSource audio;
+    
     public Transform orientation;
 
     float horizontalInput;
@@ -65,6 +66,8 @@ public class PlayerMove : MonoBehaviour
         readyToJump = true;
 
         startYScale = transform.localScale.y;
+        audio = GetComponent<AudioSource>();
+        audio.enabled = false;
     }
 
     private void Update()
@@ -92,6 +95,14 @@ public class PlayerMove : MonoBehaviour
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
+        if ((horizontalInput != 0f || verticalInput != 0f) && Grounded)
+        {
+            audio.enabled = true;
+        }
+        else
+        {
+            audio.enabled = false;
+        }
 
         // when to jump
         if(Input.GetKey(jumpKey) && readyToJump && Grounded)
@@ -161,12 +172,12 @@ public class PlayerMove : MonoBehaviour
         }
 
         // on ground
-        else if(Grounded)
+        else if (Grounded)
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
-
-        // in air
-        else if(!Grounded)
+        else if (!Grounded)
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f * airMultiplier, ForceMode.Force);
+
+
 
         // turn gravity off while on slope
         rb.useGravity = !OnSlope();
