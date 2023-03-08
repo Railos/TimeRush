@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using TMPro.EditorUtilities;
 using UnityEngine;
 
 public class GrabbingObjects : MonoBehaviour
@@ -36,7 +33,7 @@ public class GrabbingObjects : MonoBehaviour
             MoveObj();
         }
 
-        if (Input.GetMouseButtonDown(0) && heldObj != null)
+        if (Input.GetMouseButtonDown(1) && heldObj != null)
         {
             DropObj();
             heldObjRB.AddForce(450f * transform.forward);

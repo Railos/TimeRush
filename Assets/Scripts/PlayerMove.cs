@@ -39,12 +39,12 @@ public class PlayerMove : MonoBehaviour
     private bool exitingSlope;
 
     private AudioSource audio;
+
+    private float horizontalInput;
+    private float verticalInput;
     
     public Transform orientation;
-
-    float horizontalInput;
-    float verticalInput;
-
+    
     Vector3 moveDirection;
 
     Rigidbody rb;
@@ -95,6 +95,7 @@ public class PlayerMove : MonoBehaviour
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
+        
         if ((horizontalInput != 0f || verticalInput != 0f) && Grounded)
         {
             audio.enabled = true;
