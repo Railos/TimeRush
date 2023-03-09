@@ -6340,6 +6340,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1602535450, guid: f9637fecaba28e345adbacb8b78baf1f, type: 3}
+      propertyPath: ShapeModule.angle
+      value: 11.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1602535450, guid: f9637fecaba28e345adbacb8b78baf1f, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1884460843475906199, guid: f9637fecaba28e345adbacb8b78baf1f, type: 3}
       propertyPath: world1
       value: 

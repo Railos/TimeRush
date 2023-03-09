@@ -10,6 +10,7 @@ public class ShootRevolver : MonoBehaviour
     public GameObject revolver;
     private bool canShoot = true;
     private RaycastHit _out;
+    public ParticleSystem particles;
     void Update()
     {
         if (Input.GetMouseButtonDown(0) && canShoot)
@@ -18,6 +19,7 @@ public class ShootRevolver : MonoBehaviour
             StartCoroutine(waitForShooting());
             revolver.GetComponent<AudioSource>().Play();
             revolver.GetComponent<Animator>().SetTrigger("shoot");
+            particles.Play();
             if (Physics.Raycast(cam.position, cam.forward, out _out,30f))
             {
                 if (_out.transform.GetComponent<IActivateable>() != null)
