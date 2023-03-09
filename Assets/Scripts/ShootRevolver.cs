@@ -20,7 +20,11 @@ public class ShootRevolver : MonoBehaviour
             revolver.GetComponent<Animator>().SetTrigger("shoot");
             if (Physics.Raycast(cam.position, cam.forward, out _out,30f))
             {
-                Debug.Log("Hit something");
+                if (_out.transform.GetComponent<ButtonShoot>())
+                {
+                    _out.transform.GetComponent<MeshRenderer>().material =
+                        _out.transform.GetComponent<ButtonShoot>().activatedMat;
+                }
             }
         }
     }

@@ -44,6 +44,8 @@ public class PlayerMove : MonoBehaviour
     private float verticalInput;
     
     public Transform orientation;
+
+    [SerializeField] private Animator animator;
     
     Vector3 moveDirection;
 
@@ -99,10 +101,12 @@ public class PlayerMove : MonoBehaviour
         if ((horizontalInput != 0f || verticalInput != 0f) && Grounded)
         {
             audio.enabled = true;
+            animator.SetBool("isMoving",true);
         }
         else
         {
             audio.enabled = false;
+            animator.SetBool("isMoving",false);
         }
 
         // when to jump
