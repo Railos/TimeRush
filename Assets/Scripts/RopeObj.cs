@@ -6,6 +6,6 @@ public class RopeObj : MonoBehaviour, IActivateable
 {
     public void Activate()
     {
-        Destroy(gameObject);
+        Destroy(transform.parent.gameObject);
     }
 }
