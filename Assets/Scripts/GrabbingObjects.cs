@@ -9,6 +9,9 @@ public class GrabbingObjects : MonoBehaviour
 
     [SerializeField] private float pickUpRange = 5f;
     [SerializeField] private float pickUpForce = 150f;
+
+    [SerializeField] private LayerMask layerMask;
+    
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))
@@ -17,7 +20,7 @@ public class GrabbingObjects : MonoBehaviour
             {
                 RaycastHit hit;
                 if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit,
-                        pickUpRange))
+                        pickUpRange, layerMask))
                 {
                     PickObj(hit.transform.gameObject);
                 }
