@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 19e9d41866f8e1e4aa88d6f4985b89f7, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 7c47718263f221c458f2e6fccaba1773, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -172,7 +172,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.4999987, z: 0.8933293}
+  m_ConnectedAnchor: {x: 0, y: 0.49999872, z: 0.8933294}
   serializedVersion: 2
   m_Spring: 10
   m_Damper: 30
@@ -953,7 +953,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.4999987, z: 0.8933325}
+  m_ConnectedAnchor: {x: 0, y: 0.49999872, z: 0.89333254}
   serializedVersion: 2
   m_Spring: 10
   m_Damper: 30
@@ -1645,7 +1645,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.4999987, z: 0.95333874}
+  m_ConnectedAnchor: {x: 0, y: 0.49999872, z: 0.9533388}
   serializedVersion: 2
   m_Spring: 10
   m_Damper: 30
@@ -1972,7 +1972,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.4999987, z: 0.83999544}
+  m_ConnectedAnchor: {x: 0, y: 0.49999872, z: 0.8399955}
   serializedVersion: 2
   m_Spring: 10
   m_Damper: 30
@@ -2304,7 +2304,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.4999987, z: 0.86000353}
+  m_ConnectedAnchor: {x: 0, y: 0.49999872, z: 0.8600036}
   serializedVersion: 2
   m_Spring: 10
   m_Damper: 30
@@ -3278,7 +3278,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.4999987, z: 0.8666697}
+  m_ConnectedAnchor: {x: 0, y: 0.49999872, z: 0.8666698}
   serializedVersion: 2
   m_Spring: 10
   m_Damper: 30
@@ -3923,7 +3923,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.4999987, z: 0.86000353}
+  m_ConnectedAnchor: {x: 0, y: 0.49999872, z: 0.8600036}
   serializedVersion: 2
   m_Spring: 10
   m_Damper: 30
@@ -4764,7 +4764,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.4999987, z: 0.8933293}
+  m_ConnectedAnchor: {x: 0, y: 0.49999872, z: 0.8933294}
   serializedVersion: 2
   m_Spring: 10
   m_Damper: 30
@@ -5589,7 +5589,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.4999987, z: 0.8933325}
+  m_ConnectedAnchor: {x: 0, y: 0.49999872, z: 0.89333254}
   serializedVersion: 2
   m_Spring: 10
   m_Damper: 30
@@ -5919,7 +5919,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.4999987, z: 0.8399939}
+  m_ConnectedAnchor: {x: 0, y: 0.49999872, z: 0.83999395}
   serializedVersion: 2
   m_Spring: 10
   m_Damper: 30
@@ -6151,7 +6151,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.4999987, z: 0.83999544}
+  m_ConnectedAnchor: {x: 0, y: 0.49999872, z: 0.8399955}
   serializedVersion: 2
   m_Spring: 10
   m_Damper: 30
@@ -7468,7 +7468,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.4999987, z: 0.8399939}
+  m_ConnectedAnchor: {x: 0, y: 0.49999872, z: 0.83999395}
   serializedVersion: 2
   m_Spring: 10
   m_Damper: 30
@@ -7798,7 +7798,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.4999987, z: 0.8666642}
+  m_ConnectedAnchor: {x: 0, y: 0.49999872, z: 0.86666423}
   serializedVersion: 2
   m_Spring: 10
   m_Damper: 30
@@ -9218,7 +9218,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
@@ -9634,7 +9634,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.4999987, z: 0.8666697}
+  m_ConnectedAnchor: {x: 0, y: 0.49999872, z: 0.8666698}
   serializedVersion: 2
   m_Spring: 10
   m_Damper: 30
@@ -10128,7 +10128,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.4999987, z: 0.95333874}
+  m_ConnectedAnchor: {x: 0, y: 0.49999872, z: 0.9533388}
   serializedVersion: 2
   m_Spring: 10
   m_Damper: 30
@@ -10622,7 +10622,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.4999987, z: 0.8666642}
+  m_ConnectedAnchor: {x: 0, y: 0.49999872, z: 0.86666423}
   serializedVersion: 2
   m_Spring: 10
   m_Damper: 30
@@ -11346,10 +11346,6 @@ PrefabInstance:
       propertyPath: world2
       value: 
       objectReference: {fileID: 1294555447}
-    - target: {fileID: 1884460843587591892, guid: f9637fecaba28e345adbacb8b78baf1f, type: 3}
-      propertyPath: pickUpForce
-      value: 35
-      objectReference: {fileID: 0}
     - target: {fileID: 1884460845052888701, guid: f9637fecaba28e345adbacb8b78baf1f, type: 3}
       propertyPath: m_RootOrder
       value: 2
