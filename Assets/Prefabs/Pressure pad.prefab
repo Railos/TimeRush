@@ -260,7 +260,7 @@ MonoBehaviour:
   animator: {fileID: 3402168415279597253}
   mask:
     serializedVersion: 2
-    m_Bits: 9
+    m_Bits: 2185
   OnPressed:
     m_PersistentCalls:
       m_Calls: []

@@ -9,4 +9,9 @@ public class Door : MonoBehaviour
     {
         GetComponent<Animator>().SetBool("isOpen", true);
     }
+    
+    public void Close()
+    {
+        GetComponent<Animator>().SetBool("isOpen", false);
+    }
 }

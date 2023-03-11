@@ -24,7 +24,6 @@ public class SceneChanger : MonoBehaviour
     {
         while (fader.color.a < 1f)
         {
-            print("ilya daun");
 
             Color color = fader.color;
             color.a += step;

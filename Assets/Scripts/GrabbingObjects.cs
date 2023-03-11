@@ -11,6 +11,7 @@ public class GrabbingObjects : MonoBehaviour
     [SerializeField] private float pickUpForce = 150f;
 
     [SerializeField] private LayerMask layerMask;
+    private int lastPickedUpLayer;
     
     private void Update()
     {
@@ -63,6 +64,8 @@ public class GrabbingObjects : MonoBehaviour
 
             heldObjRB.transform.parent = holdArea;
             heldObj = pickObj;
+            lastPickedUpLayer = heldObj.layer;
+            heldObj.layer = LayerMask.NameToLayer("Bullets");
         }
     }
     
@@ -71,7 +74,7 @@ public class GrabbingObjects : MonoBehaviour
         heldObjRB.useGravity = true;
         heldObjRB.drag = 0f;
         heldObjRB.constraints = RigidbodyConstraints.None;
-
+        heldObj.layer = lastPickedUpLayer;
         heldObjRB.transform.parent = null;
         heldObj = null;
     }

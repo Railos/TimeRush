@@ -1,3 +1,5 @@
+using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,9 +9,15 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private GameObject settingsCanvas;
     [SerializeField] private GameObject mainCanvas;
     [SerializeField] private GameObject backButton;
-
+    public TMP_InputField sens;
     [Header("Settings")] 
     [SerializeField] private int ww;
+
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.None;
+    }
+
     public void StartGame()
     {
         SceneManager.LoadScene("1");
@@ -32,5 +40,16 @@ public class MainMenu : MonoBehaviour
         backButton.SetActive(false);
         settingsCanvas.SetActive(false);
         mainCanvas.SetActive(true);
+    }
+
+    public void SensChanged()
+    {
+        int newSens = int.Parse(sens.text);
+        PlayerPrefs.SetInt("sens", newSens);
+    }
+
+    public void UpdateSens()
+    {
+        sens.text = PlayerPrefs.GetInt("sens", 500).ToString();
     }
 }
