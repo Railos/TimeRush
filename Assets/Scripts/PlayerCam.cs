@@ -16,10 +16,15 @@ public class PlayerCam : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        UpdateSens();
+    }
+
+    public void UpdateSens()
+    {
         sensX = PlayerPrefs.GetInt("sens", 500);
         sensY = PlayerPrefs.GetInt("sens", 500);
     }
-
+    
     private void Update()
     {
         // get mouse input
