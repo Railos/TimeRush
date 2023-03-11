@@ -474,7 +474,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh167762
+  m_Name: pb_Mesh78506
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -646,7 +646,7 @@ GameObject:
   - component: {fileID: 720894275}
   - component: {fileID: 720894274}
   - component: {fileID: 720894273}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1177,7 +1177,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 1381422700}
-  m_VersionIndex: 3149
+  m_VersionIndex: 3157
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -1890,7 +1890,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh167778
+  m_Name: pb_Mesh78522
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2473,7 +2473,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8800982266248689061, guid: 162bace9c9fe4104d8639b87d7b401a5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.1009998
+      value: -2.866
       objectReference: {fileID: 0}
     - target: {fileID: 8800982266248689061, guid: 162bace9c9fe4104d8639b87d7b401a5, type: 3}
       propertyPath: m_LocalRotation.w

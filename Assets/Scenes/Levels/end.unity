@@ -479,7 +479,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh38690
+  m_Name: pb_Mesh79264
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -651,7 +651,7 @@ GameObject:
   - component: {fileID: 720894275}
   - component: {fileID: 720894274}
   - component: {fileID: 720894273}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1938,7 +1938,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1232899257}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -3.355}
+  m_LocalPosition: {x: 0, y: 0, z: -3.998}
   m_LocalScale: {x: 0.05, y: 0.05, z: 1}
   m_Children:
   - {fileID: 735619292}
@@ -1947,7 +1947,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -1.213, y: 2.99}
+  m_AnchoredPosition: {x: -1.803, y: 2.99}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &1257205164 stripped
@@ -2132,7 +2132,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh38706
+  m_Name: pb_Mesh79280
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2781,7 +2781,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8800982266248689061, guid: 162bace9c9fe4104d8639b87d7b401a5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.1009998
+      value: -2.878
       objectReference: {fileID: 0}
     - target: {fileID: 8800982266248689061, guid: 162bace9c9fe4104d8639b87d7b401a5, type: 3}
       propertyPath: m_LocalRotation.w
