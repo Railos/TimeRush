@@ -54,4 +54,9 @@ public class MainMenu : MonoBehaviour
     {
         sens.text = PlayerPrefs.GetInt("sens", 500).ToString();
     }
+
+    public void LaunchLastLevel()
+    {
+        SceneManager.LoadScene(PlayerPrefs.GetString("lastLevel", "1"));
+    }
 }

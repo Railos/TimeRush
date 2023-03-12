@@ -30,7 +30,7 @@ public class SceneChanger : MonoBehaviour
             fader.color = color;
             yield return new WaitForSeconds(0.1f);
         }
-
+        PlayerPrefs.SetString("lastLevel", scene);
         SceneManager.LoadScene(scene);
     }
     
