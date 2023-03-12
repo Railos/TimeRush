@@ -380,7 +380,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh108260
+  m_Name: pb_Mesh196004
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -588,9 +588,9 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.5, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.000000049670533, y: -1.401666, z: 3.7500005}
+  m_ConnectedAnchor: {x: 0.000000049670533, y: -1.4016665, z: 3.75}
   serializedVersion: 2
-  m_Spring: 5
+  m_Spring: 45
   m_Damper: 0.2
   m_MinDistance: 0
   m_MaxDistance: 0.5
@@ -613,7 +613,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.000000049670533, y: -1.401666, z: 3.7500005}
+  m_ConnectedAnchor: {x: 0.000000049670533, y: -1.4016665, z: 3.75}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 2
@@ -2181,8 +2181,10 @@ Transform:
   - {fileID: 1499390014}
   - {fileID: 1537938942}
   - {fileID: 270130014}
+  - {fileID: 800167328}
+  - {fileID: 3402168414932603476}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &338910725
 PrefabInstance:
@@ -3073,7 +3075,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh108586
+  m_Name: pb_Mesh196132
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3813,7 +3815,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 2, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.029898733, y: 0.7899922, z: 1.8517601}
+  m_ConnectedAnchor: {x: -0.098813735, y: -0.6407973, z: -1.0828507}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 2
@@ -3947,9 +3949,9 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.5, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000000745058, y: -1.4016665, z: 2.2499988}
+  m_ConnectedAnchor: {x: 0.000000024835266, y: -1.4016671, z: 2.25}
   serializedVersion: 2
-  m_Spring: 5
+  m_Spring: 45
   m_Damper: 0.2
   m_MinDistance: 0
   m_MaxDistance: 0.5
@@ -3972,7 +3974,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000000745058, y: -1.4016665, z: 2.2499988}
+  m_ConnectedAnchor: {x: 0.000000024835266, y: -1.4016671, z: 2.25}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 2
@@ -4392,7 +4394,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh108934
+  m_Name: pb_Mesh196310
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4725,7 +4727,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh109418
+  m_Name: pb_Mesh196588
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4888,7 +4890,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 299649637}
     m_Modifications:
     - target: {fileID: 1241773529943248392, guid: a7f2929ed7750fc4c9f72c735a93fa19, type: 3}
       propertyPath: m_Name
@@ -4896,11 +4898,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1241773529943248393, guid: a7f2929ed7750fc4c9f72c735a93fa19, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 1241773529943248393, guid: a7f2929ed7750fc4c9f72c735a93fa19, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.1757348
+      value: 7.1757345
       objectReference: {fileID: 0}
     - target: {fileID: 1241773529943248393, guid: a7f2929ed7750fc4c9f72c735a93fa19, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4908,7 +4910,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1241773529943248393, guid: a7f2929ed7750fc4c9f72c735a93fa19, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.038221
+      value: -2.788221
       objectReference: {fileID: 0}
     - target: {fileID: 1241773529943248393, guid: a7f2929ed7750fc4c9f72c735a93fa19, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4978,7 +4980,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh108738
+  m_Name: pb_Mesh196214
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5142,7 +5144,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh109210
+  m_Name: pb_Mesh196454
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5779,9 +5781,9 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.5, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.000000049670533, y: -1.4016665, z: 5.250002}
+  m_ConnectedAnchor: {x: 0.0000000745058, y: -1.4016663, z: 5.2499995}
   serializedVersion: 2
-  m_Spring: 5
+  m_Spring: 45
   m_Damper: 0.2
   m_MinDistance: 0
   m_MaxDistance: 0.5
@@ -5804,7 +5806,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.000000049670533, y: -1.4016665, z: 5.250002}
+  m_ConnectedAnchor: {x: 0.0000000745058, y: -1.4016663, z: 5.2499995}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 2
@@ -6512,7 +6514,7 @@ Transform:
   - {fileID: 2045138852}
   - {fileID: 1607615920}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &722333469
 Mesh:
@@ -6520,7 +6522,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh108358
+  m_Name: pb_Mesh196042
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6963,8 +6965,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 762038895}
-  m_LocalRotation: {x: 0.61391014, y: 0.026804011, z: 0.0344121, w: 0.7881699}
-  m_LocalPosition: {x: 1.6130756, y: 12.08054, z: 0.92486167}
+  m_LocalRotation: {x: 0.16942687, y: 0.007397504, z: 0.042987496, w: 0.98457706}
+  m_LocalPosition: {x: 1.666, y: 11.471, z: 0.523}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1625186984}
@@ -6979,8 +6981,8 @@ Transform:
   - {fileID: 1339631165}
   - {fileID: 1330761802}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 74.991, y: 19.045, z: 19.667}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 19.45, y: 1.771, z: 5.303}
 --- !u!1 &769138135
 GameObject:
   m_ObjectHideFlags: 0
@@ -8008,6 +8010,11 @@ Transform:
   m_Father: {fileID: 299649637}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -45}
+--- !u!4 &800167328 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1241773529943248393, guid: a7f2929ed7750fc4c9f72c735a93fa19, type: 3}
+  m_PrefabInstance: {fileID: 656156506}
+  m_PrefabAsset: {fileID: 0}
 --- !u!850595691 &869879253
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -8075,7 +8082,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh108696
+  m_Name: pb_Mesh196200
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9097,7 +9104,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8800982266248689061, guid: 162bace9c9fe4104d8639b87d7b401a5, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8800982266248689061, guid: 162bace9c9fe4104d8639b87d7b401a5, type: 3}
       propertyPath: m_LocalScale.x
@@ -9538,7 +9545,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1221970235
 PrefabInstance:
@@ -10888,7 +10895,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0000001490116, y: -1.4016665, z: 7.5}
+  m_ConnectedAnchor: {x: -0.000000099341065, y: -1.4016669, z: 7.499999}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 2
@@ -11061,9 +11068,9 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.5, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0000001490116, y: -1.4016665, z: 7.5}
+  m_ConnectedAnchor: {x: -0.000000099341065, y: -1.4016669, z: 7.499999}
   serializedVersion: 2
-  m_Spring: 5
+  m_Spring: 45
   m_Damper: 0.2
   m_MinDistance: 0
   m_MaxDistance: 0.5
@@ -11476,9 +11483,9 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.5, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000000099341065, y: -1.4016665, z: 6.7500014}
+  m_ConnectedAnchor: {x: -0.000000024835266, y: -1.4016669, z: 6.7500005}
   serializedVersion: 2
-  m_Spring: 5
+  m_Spring: 45
   m_Damper: 0.2
   m_MinDistance: 0
   m_MaxDistance: 0.5
@@ -11501,7 +11508,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000000099341065, y: -1.4016665, z: 6.7500014}
+  m_ConnectedAnchor: {x: -0.000000024835266, y: -1.4016669, z: 6.7500005}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 2
@@ -12312,7 +12319,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.000000024835266, y: -1.401666, z: 0.750001}
+  m_ConnectedAnchor: {x: 0.00000012572853, y: -1.401666, z: 0.7499996}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 2
@@ -12483,9 +12490,9 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.5, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.000000024835266, y: -1.401666, z: 0.750001}
+  m_ConnectedAnchor: {x: 0.00000012572853, y: -1.401666, z: 0.7499996}
   serializedVersion: 2
-  m_Spring: 5
+  m_Spring: 45
   m_Damper: 20
   m_MinDistance: 0
   m_MaxDistance: 0.1
@@ -14064,7 +14071,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-63282
+  m_Name: pb_Mesh196470
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14608,9 +14615,9 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.5, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000012417632, y: -1.401666, z: 2.9999995}
+  m_ConnectedAnchor: {x: -0.00000006208816, y: -1.4016669, z: 3}
   serializedVersion: 2
-  m_Spring: 5
+  m_Spring: 45
   m_Damper: 0.2
   m_MinDistance: 0
   m_MaxDistance: 0.5
@@ -14633,7 +14640,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000012417632, y: -1.401666, z: 2.9999995}
+  m_ConnectedAnchor: {x: -0.00000006208816, y: -1.4016669, z: 3}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 2
@@ -15192,7 +15199,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh108650
+  m_Name: pb_Mesh196170
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -15802,9 +15809,9 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.5, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0000002980232, y: -1.4016657, z: 6}
+  m_ConnectedAnchor: {x: 0, y: -1.4016657, z: 6}
   serializedVersion: 2
-  m_Spring: 5
+  m_Spring: 45
   m_Damper: 0.2
   m_MinDistance: 0
   m_MaxDistance: 0.5
@@ -15827,7 +15834,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0000002980232, y: -1.4016657, z: 6}
+  m_ConnectedAnchor: {x: 0, y: -1.4016657, z: 6}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 2
@@ -16555,9 +16562,9 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.5, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.000000049670533, y: -1.4016665, z: 4.500001}
+  m_ConnectedAnchor: {x: -0.0000000372529, y: -1.401666, z: 4.5}
   serializedVersion: 2
-  m_Spring: 5
+  m_Spring: 45
   m_Damper: 0.2
   m_MinDistance: 0
   m_MaxDistance: 0.5
@@ -16580,7 +16587,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.000000049670533, y: -1.4016665, z: 4.500001}
+  m_ConnectedAnchor: {x: -0.0000000372529, y: -1.401666, z: 4.5}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 2
@@ -16803,9 +16810,9 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.5, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0000000745058, y: -1.4016657, z: 1.5}
+  m_ConnectedAnchor: {x: -0.000000096236654, y: -1.4016672, z: 1.5000002}
   serializedVersion: 2
-  m_Spring: 5
+  m_Spring: 45
   m_Damper: 0.2
   m_MinDistance: 0
   m_MaxDistance: 0.5
@@ -16828,7 +16835,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0.49999997, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0000000745058, y: -1.4016657, z: 1.5}
+  m_ConnectedAnchor: {x: -0.000000096236654, y: -1.4016672, z: 1.5000002}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 2
@@ -17406,7 +17413,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 2
-  m_Constraints: 0
+  m_Constraints: 96
   m_CollisionDetection: 2
 --- !u!65 &1425523427514029395
 BoxCollider:
@@ -17428,13 +17435,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2236340476508448489}
-  m_LocalRotation: {x: 0.62487364, y: 0.042042512, z: 0.052333605, w: 0.77783453}
-  m_LocalPosition: {x: 2.136, y: 6.008, z: 2.019}
+  m_LocalRotation: {x: 0.17655681, y: 0.024674954, z: -0.004427499, w: 0.9839712}
+  m_LocalPosition: {x: 1.763, y: 8.772, z: 4.926}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 75.397, y: 31.254, z: 32.095}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 20.345, y: 2.873, z: 0}
 --- !u!114 &1710181862832857121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17447,7 +17454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 380be2ea82dbb174888e2706bbaa6590, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sound: {fileID: 8300000, guid: a1e3fe8731720ed4baa0abfb75375281, type: 3}
+  sound: {fileID: 8300000, guid: f6ade59a0af1bfa428abb91e43293776, type: 3}
 --- !u!82 &2032371952750903805
 AudioSource:
   m_ObjectHideFlags: 0
@@ -17458,7 +17465,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: f6ade59a0af1bfa428abb91e43293776, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.54
   m_Pitch: 1
@@ -17630,14 +17637,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3402168414932603479}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.557, y: 0.12658499, z: 7.495288}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.557, y: 0.12658499, z: 11.745288}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3402168415088104619}
   - {fileID: 3402168415201252135}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 299649637}
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3402168414932603479
 GameObject:
@@ -17907,7 +17914,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8800982266248689061, guid: 162bace9c9fe4104d8639b87d7b401a5, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8800982266248689061, guid: 162bace9c9fe4104d8639b87d7b401a5, type: 3}
       propertyPath: m_LocalPosition.x

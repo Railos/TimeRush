@@ -13,5 +13,6 @@ public class Door : MonoBehaviour
     public void Close()
     {
         GetComponent<Animator>().SetBool("isOpen", false);
+        GetComponent<AudioSource>().Play();
     }
 }
